@@ -1,0 +1,34 @@
+:root {
+    --cream: #F5F5DC;
+    --light-brown: #D2B48C;
+    --brown: #8B4513;
+    --dark-brown: #5A3921;
+}
+
+body {
+    padding-bottom: 60px; /* Для нижнего меню */
+    font-family: 'Arial', sans-serif;
+}
+
+.bg-cream { background-color: var(--cream); }
+.bg-light-brown { background-color: var(--light-brown); }
+.bg-brown { background-color: var(--brown); }
+.text-brown { color: var(--dark-brown); }
+
+.btn-light-brown {
+    background-color: var(--light-brown);
+    color: white;
+}
+.btn-brown {
+    background-color: var(--brown);
+    color: white;
+}
+
+.mobile-nav {
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+.btn-nav {
+    font-size: 1.5rem;
+    color: var(--dark-brown);
+}
+
